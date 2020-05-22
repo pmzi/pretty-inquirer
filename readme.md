@@ -27,7 +27,7 @@ const props = createQuestions({
   if(await props.single) {
     console.log(`${await props.name}, will you marry me?`);
   }else{
-    console.log(`We can work together using ${await this.skills}.`);
+    console.log(`We can work together using ${await props.skills}.`);
   }
 })()
 
