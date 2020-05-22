@@ -1,3 +1,3 @@
-import { opts, createQuestions } from './src/noop';
+const prettyInquirer = require('./dist/index');
 
-export { opts, createQuestions };
+module.exports = prettyInquirer;
