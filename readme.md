@@ -1,8 +1,10 @@
 # Pretty Inquirer
 
-This package is on top of `inquirer` and makes it easy to use `inquirer`.
+This package is on top of [inquirer](https://github.com/SBoudrias/Inquirer.js/) and makes it easy to use [inquirer](https://github.com/SBoudrias/Inquirer.js/).
 
 ## Usage
+
+Please read docs of [inquirer](https://github.com/SBoudrias/Inquirer.js/) before reading this section. Every options specified is defined inside [inquirer](https://github.com/SBoudrias/Inquirer.js/) documentations.
 
 ```javascript
 const { createQuestions, opts } = require('pretty-inquirer');
