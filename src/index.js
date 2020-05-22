@@ -1,3 +1,3 @@
-import { opts, createQuestions } from './pretty-inquirer';
+const { opts, createQuestions } = require('./pretty-inquirer');
 
-export { opts, createQuestions };
+module.exports = { opts, createQuestions };

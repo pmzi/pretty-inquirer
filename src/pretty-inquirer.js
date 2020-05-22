@@ -1,5 +1,5 @@
-import inquirer from 'inquirer';
-import chainFiller from 'chain-filler';
+const inquirer = require('inquirer');
+const chainFiller = require('chain-filler');
 
 export const opts = chainFiller(
   [
