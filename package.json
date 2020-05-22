@@ -3,8 +3,7 @@
   "version": "1.0.7",
   "dependencies": {
     "chain-filler": "^1.0.0",
-    "inquirer": "^7.1.0",
-    "pretty-inquirer": "^1.0.1"
+    "inquirer": "^7.1.0"
   },
   "main": "./src/index.js",
   "devDependencies": {
