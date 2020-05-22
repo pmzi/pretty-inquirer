@@ -1,7 +1,7 @@
 import inquirer from 'inquirer';
-import chainer from './chainer';
+import chainFiller from 'chain-filler';
 
-export const opts = chainer(
+export const opts = chainFiller(
   [
     'type',
     'name',
@@ -43,8 +43,6 @@ export const createQuestions = function createQuestions(questions) {
       });
     })();
   });
-
-  console.log(observableQuestions);
 
   return observableQuestions;
 };

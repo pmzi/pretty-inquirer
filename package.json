@@ -2,7 +2,9 @@
   "name": "pretty-inquirer",
   "version": "1.0.1",
   "dependencies": {
-    "inquirer": "^7.1.0"
+    "chain-filler": "^1.0.0",
+    "inquirer": "^7.1.0",
+    "pretty-inquirer": "^1.0.1"
   },
   "source": "src/index.js",
   "main": "dist/index.js",
