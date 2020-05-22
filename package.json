@@ -1,6 +1,6 @@
 {
   "name": "pretty-inquirer",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "dependencies": {
     "chain-filler": "^1.0.0",
     "inquirer": "^7.1.0",
