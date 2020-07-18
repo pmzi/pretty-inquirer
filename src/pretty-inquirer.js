@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const chainFiller = require('chain-filler');
 
-export const opts = chainFiller(
+const opts = chainFiller(
   [
     'type',
     'name',
@@ -19,7 +19,7 @@ export const opts = chainFiller(
   ],
 );
 
-export const createQuestions = function createQuestions(questions) {
+const createQuestions = function createQuestions(questions) {
   const observableQuestions = {};
   Object.keys(questions).forEach((question) => {
     (() => {
@@ -46,3 +46,8 @@ export const createQuestions = function createQuestions(questions) {
 
   return observableQuestions;
 };
+
+module.exports = {
+  opts,
+  createQuestions,
+}
